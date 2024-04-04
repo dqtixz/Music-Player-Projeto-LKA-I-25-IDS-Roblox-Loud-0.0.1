@@ -1,0 +1,815 @@
+-- none the script protected by moonsecv3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Ohio moonsecv3 or moonsecv4 lol --
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
+wait(0.1)
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
+wait(1)
+NotificationLibrary:SendNotification("Success", "Script Load !", 3)
+wait(0.1)
+NotificationLibrary:SendNotification("Warning", "No Work Possible Audio Patched", 3)
+wait(1)
+NotificationLibrary:SendNotification("Info", "Made by dqtixz", 3)
+wait(1)
+NotificationLibrary:SendNotification("Info", "please follow on scriptblox.com", 3)
+wait(1)
+NotificationLibrary:SendNotification("Info", "For More Scripts !", 3)
+wait(0.1)
+NotificationLibrary:SendNotification("Info", "No Key now comesoon key !", 3)
+wait(1)
+NotificationLibrary:SendNotification("Warning", "Loading...", 3)
+wait(3)
+MakeWindow({
+  Hub = {
+    Title = "Music Player",
+    Animation = "By Projeto LKA"
+  },
+  Key = {
+    KeySystem = false, -- comesoon lol or no bruh?
+    Title = "Key System",
+    Description = "Easy Get key",
+    KeyLink = "https://pastefy.app/W21NStPA/raw",
+    Keys = {"None"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  }
+})
+
+local Main = MakeTab({Name = "Logs"})
+
+AddButton(Main, {
+  Name = "Logs",
+  Callback = function()
+    print('Logs")')
+  end
+})
+
+AddButton(Main, {
+  Name = "Version: 0.0.1",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "25+ Audios Add (Loud)",
+  Callback = function()
+    print("Audios")
+  end
+})
+
+AddButton(Main, {
+  Name = "key system reason: hours to made",
+  Callback = function()
+    print("key system")
+  end
+})
+
+local Main = MakeTab({Name = "Audios Loud"})
+
+AddButton(Main, {
+  Name = "CyberShot hot",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6844230235"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "akkkkkkkk",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6674053789"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "ambuent rain forest!!",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6893776529"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "Beat2",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6707901601"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "beep boop boop beep",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6991661856"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "bell",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6937042327"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "bell_sfx.ogg",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6984999899"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "bruh (unkwown pitch)",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6953898257"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "ButtonPress_53",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6841685130"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "camera click",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6819593773"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "cartoony",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6933147325"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+local Main = MakeTab({Name = "Bonus ids Loud"})
+
+AddButton(Main, {
+  Name = "Guitar Sound",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6685433021"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "Rare Audio",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6970996018"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "Lacoste",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6868100434"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "Rio",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6896624865"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "Favela",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6953866301"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "explode (rare)",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6847929757"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "fresh (rare)",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6688246112"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "Record (rare)",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6917155909"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "Pink Guy (rare)",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6670954642"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+AddButton(Main, {
+  Name = "Click_32 (rare)",
+  Callback = function()
+
+local music = Instance.new("Sound", game.Workspace)
+
+music.SoundId = "rbxassetid://6845637094"
+
+music.Volume = 1
+
+music.Looped = false
+
+music.PlayOnRemove = false
+
+music:Play()
+
+end
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- G7D4W9A8Q3J2L5H6R9I1T4Y7K8O6PF9X2N5S1ER3A6U8Z2Y --
